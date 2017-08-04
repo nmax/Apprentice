@@ -9,7 +9,7 @@
 " darker grey     #262626    rgb(38, 38, 38)       235    background color
 " dark grey       #303030    rgb(48, 48, 48)       236    8
 " grey            #444444    rgb(68, 68, 68)       238    8
-" medium grey     #585858    rgb(88, 88, 88)       240    8
+" medium grey     #a3a0a0    rgb(88, 88, 88)       240    8
 " light grey      #6c6c6c    rgb(108, 108, 108)    242    7
 " lighter grey    #bcbcbc    rgb(188, 188, 188)    250    foreground color
 " white           #ffffff    rgb(255, 255, 255)    231    15
@@ -44,7 +44,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
 
   set background=dark
 
-  hi Comment          ctermbg=NONE ctermfg=240  guibg=NONE    guifg=#585858 cterm=NONE           gui=NONE
+  hi Comment          ctermbg=NONE ctermfg=240  guibg=NONE    guifg=#a3a0a0 cterm=NONE           gui=NONE
   hi Conceal          ctermbg=NONE ctermfg=250  guibg=NONE    guifg=#bcbcbc cterm=NONE           gui=NONE
   hi Constant         ctermbg=NONE ctermfg=208  guibg=NONE    guifg=#ff8700 cterm=NONE           gui=NONE
   hi Error            ctermbg=NONE ctermfg=131  guibg=NONE    guifg=#af5f5f cterm=reverse        gui=reverse
@@ -58,10 +58,10 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
   hi Type             ctermbg=NONE ctermfg=103  guibg=NONE    guifg=#8787af cterm=NONE           gui=NONE
   hi Underlined       ctermbg=NONE ctermfg=66   guibg=NONE    guifg=#5f8787 cterm=underline      gui=underline
 
-  hi NonText          ctermbg=NONE ctermfg=240  guibg=NONE    guifg=#585858 cterm=NONE           gui=NONE
+  hi NonText          ctermbg=NONE ctermfg=240  guibg=NONE    guifg=#a3a0a0 cterm=NONE           gui=NONE
 
   hi Pmenu            ctermbg=238  ctermfg=250  guibg=#444444 guifg=#bcbcbc cterm=NONE           gui=NONE
-  hi PmenuSbar        ctermbg=240  ctermfg=NONE guibg=#585858 guifg=NONE    cterm=NONE           gui=NONE
+  hi PmenuSbar        ctermbg=240  ctermfg=NONE guibg=#a3a0a0 guifg=NONE    cterm=NONE           gui=NONE
   hi PmenuSel         ctermbg=66   ctermfg=235  guibg=#5f8787 guifg=#262626 cterm=NONE           gui=NONE
   hi PmenuThumb       ctermbg=66   ctermfg=66   guibg=#5f8787 guifg=#5f8787 cterm=NONE           gui=NONE
 
@@ -93,7 +93,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has("gui_running")
   hi WildMenu         ctermbg=110  ctermfg=235  guibg=#8fafd7 guifg=#262626 cterm=NONE           gui=NONE
 
   hi Function         ctermbg=NONE ctermfg=229  guibg=NONE    guifg=#ffffaf cterm=NONE           gui=NONE
-  hi SpecialKey       ctermbg=NONE ctermfg=240  guibg=NONE    guifg=#585858 cterm=NONE           gui=NONE
+  hi SpecialKey       ctermbg=NONE ctermfg=240  guibg=NONE    guifg=#a3a0a0 cterm=NONE           gui=NONE
   hi Title            ctermbg=NONE ctermfg=231  guibg=NONE    guifg=#ffffff cterm=NONE           gui=NONE
 
   hi DiffAdd          ctermbg=235  ctermfg=108  guibg=#262626 guifg=#87af87 cterm=reverse        gui=reverse
